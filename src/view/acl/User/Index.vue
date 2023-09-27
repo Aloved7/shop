@@ -291,7 +291,7 @@ const getHasUser = async (pager = 1) => {
   let res: UserReponseData = await getUserInfo(
     pageNo.value,
     pageSize.value,
-    keyword.value
+    keyword.value 
   );
   if (res.code === 200) {
     total.value = res.data.total;
