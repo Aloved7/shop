@@ -1,0 +1,19 @@
+//引入清除默认样式
+@import "./reset.less";
+
+//滚动条外观设置 设置滚动条的宽度
+::-webkit-scrollbar {
+  width: 0;
+}
+
+//设置滚动条的背景颜色。
+::-webkit-scrollbar-track {
+  background: @base-menu-background;
+}
+
+//设置滚动条的滑块样式，包括宽度、背景颜色和边框圆角等。
+::-webkit-scrollbar-thumb {
+  width: 10px;
+  background-color: yellowgreen;
+  border-radius: 10px;
+}
